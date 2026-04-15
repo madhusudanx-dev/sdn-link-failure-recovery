@@ -119,6 +119,10 @@ link s1 s2 up
 
 ---
 
+## 🔁 Failure Handling
+
+When the link between s1 and s2 fails, the controller detects the failure and reroutes traffic via switch s3 by installing new flow rules dynamically.
+
 ## 📸 Results & Proof
 
 The following results were observed:
@@ -166,3 +170,4 @@ By separating the control plane from the data plane, the controller dynamically 
 * Extend topology to larger networks
 
 ---
+This project demonstrates self-healing networks using SDN.
